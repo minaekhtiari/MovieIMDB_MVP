@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aac6d6"
+    tools:context="com.example.minapc.imdbapp.MovieDetail">
+    <ImageView
+        android:src="@drawable/ic_launcher_background"
+        android:id="@+id/movieposter"
+        android:layout_margin="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp" />
+    <LinearLayout
+
+        android:layout_below="@+id/movieposter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:background="#4b9acb"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:text="Title: "
+                android:layout_margin="10dp"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/title"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:text="eressdsf"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/simpleplot"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:text="Simple Plot: "
+                android:layout_margin="10dp"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:background="#4b9acb"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/urlimdb"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:text="URL IMDB "
+                android:layout_margin="10dp"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/year"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:text="Year"
+                android:layout_margin="10dp"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+               android:id="@+id/rank"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:text="rank"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
